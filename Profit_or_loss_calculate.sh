@@ -12,7 +12,7 @@ calculate_profit_or_loss() {
         echo "Kudos To You! You have earned a profit of \$${profit}"
     else
         loss=$((cost_price - selling_price))
-        echo "Total Loss: \$${loss}"
+        echo "Hey User, I’m sorry to say that you have encouraged losses of $.: \$${loss}"
     fi
 }
 
